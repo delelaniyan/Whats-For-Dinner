@@ -1,4 +1,9 @@
-background(186, 145, 20); 
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
 
 ellipse(202, 206, 385, 385);
 
@@ -26,3 +31,4 @@ fill(220, 230, 87); //muffin
 
 ellipse(191, 166, 63, 57);
 rect(159, 166, 63, 34); 
+}
